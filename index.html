@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Zomato - Largest Food Delivery network</title>
 </head>
 <body>
@@ -22,5 +21,59 @@
             </div>
         </nav>
     </header>
+    <main class="container">
+        <!--Hero section-->
+        <section class="hero_container">
+            <div class="hero_img_container">
+                <img src="Asserts/hero.jpg" alt="hero" class="hero_img">
+            </div>
+            <div class="hero_text">
+                <h1>Order food from favourite restaurants near you.</h1>
+                <button class="button_order">Order Now</button>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <section class="explore_menu_con">
+            <h1 class="Ex_menu_text">Explore Our Menu</h1>
+            <div class="ex_menu_back"></div>
+            <div class="ex_menu_list">
+                <!--Burger-->
+                <div class="food_card">
+                    <div class="food_card_img">
+                        <img src="Asserts/burger.jpg" alt="Burger" class="food_img">
+                     </div>
+                     <div class="food_card_text">
+                        <h3 class="food_title">Burger</h3>
+                        <p>Burger King, Mcdonalds, Burger Place <samp style="color: red;">+3</samp></p>
+                     </div>
+                </div>
+                <!--Pzza-->
+                <div class="food_card" id="pizza_card">
+                    <div class="food_card_img">
+                        <img src="Asserts/pizza.jpg" alt="Pizza" class="food_img">
+                     </div>
+                     <div class="food_card_text">
+                        <h3 class="food_title">Pizza</h3>
+                        <p>Pizza Hut, Domino's Pizza  <samp style="color: red;">+3</samp></p>
+                     </div>
+                </div>
+                <!--Icecream-->
+                <div class="food_card">
+                    <div class="food_card_img">
+                        <img src="Asserts/iceCream.jpg" alt="Icecreame" class="food_img">
+                     </div>
+                     <div class="food_card_text">
+                        <h3 class="food_title">Ice-Cream</h3>
+                        <p>Baskin Robins, Ibaco<samp style="color: red;">+3</samp></p>
+                     </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
 </body>
 </html>
