@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Zomato - Largest Food Delivery network</title>
@@ -26,24 +24,21 @@
         <section class="hero_container">
             <div class="hero_img_container">
                 <img src="Asserts/hero.jpg" alt="hero" class="hero_img">
+                <img src="Asserts/heroShape.svg" alt="Hero_img_shape" class="Hero_img_shape">
+                <img src="Asserts/herobgpattren.svg" alt="hero image shape"class="hero__image__pattren" />
             </div>
             <div class="hero_text">
                 <h1>Order food from favourite restaurants near you.</h1>
                 <button class="button_order">Order Now</button>
             </div>
         </section>
-        <br>
-        <br>
-        <br>
-        <br>
-        
-        <section class="explore_menu_con">
-            <h1 class="Ex_menu_text">Explore Our Menu</h1>
+        <section class="explore_menu_container">
+            <h1 class="Ex_menu_text">Explore our menu</h1>
             <div class="ex_menu_back"></div>
             <div class="ex_menu_list">
                 <!--Burger-->
                 <div class="food_card">
-                    <div class="food_card_img">
+                    <div class="food_card_img_container">
                         <img src="Asserts/burger.jpg" alt="Burger" class="food_img">
                      </div>
                      <div class="food_card_text">
@@ -53,7 +48,7 @@
                 </div>
                 <!--Pzza-->
                 <div class="food_card" id="pizza_card">
-                    <div class="food_card_img">
+                    <div class="food_card_img_container">
                         <img src="Asserts/pizza.jpg" alt="Pizza" class="food_img">
                      </div>
                      <div class="food_card_text">
@@ -63,7 +58,7 @@
                 </div>
                 <!--Icecream-->
                 <div class="food_card">
-                    <div class="food_card_img">
+                    <div class="food_card_img_container">
                         <img src="Asserts/iceCream.jpg" alt="Icecreame" class="food_img">
                      </div>
                      <div class="food_card_text">
@@ -72,8 +67,45 @@
                      </div>
                 </div>
             </div>
-
+            <div class="ex_menu_view_more">View More</div>
         </section>
+        <section class="restaurant_container">
+            <div class="res_text_container">
+                <h3 class="res_text">Order From 100s of restaurants</h3>
+            </div>
+            <div class="res_img_container">
+                <div class="res_img_r1">
+                    <div>
+                        <img src="Asserts/restaurant1.jpg" alt="Restaurant" class="res1">
+                    </div>
+                        <img src="Asserts/restaurant2.jpg" alt="Restaurant" class="res2">
+                </div>
+                <div class="res_img_r1">
+                        <img src="Asserts/restaurant3.jpg" alt="Restaurant" class="res3">
+                        <img src="Asserts/restaurant4.jpg" alt="Restaurant" class="res4">
+                </div>
+            </div>
+        </section>
+        <section class="updated_container">
+            <div class="text_update_container">
+                <h3 class="text_update">Stay Updated</h3>
+            </div>
+            <div class="email_input_container">
+                <div>
+                    <input type="email" name="email" placeholder="email@gmail.com" class="email_input">
+                </div>
+                <div>
+                    <button class="button_order">Get Updated</button>
+                </div>
+                
+            </div>
+        </section>
+        <section class="quote__container">
+            <div class="quote_image_overlay"></div>
+            <h3 class="quote_image_text">
+              When stomach is full with delicious food the happiness automatically revolves all around!!😃
+            </h3>
+          </section>
     </main>
 </body>
 </html>
